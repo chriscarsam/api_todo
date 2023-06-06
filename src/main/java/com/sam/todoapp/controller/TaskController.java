@@ -5,6 +5,8 @@ import com.sam.todoapp.service.TaskService;
 import com.sam.todoapp.service.dto.TaskInDTO;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/tasks")
 public class TaskController {
@@ -18,5 +20,10 @@ public class TaskController {
     @PostMapping
     public Task createTask(@RequestBody TaskInDTO taskInDTO){
         return this.taskService.createTask(taskInDTO);
+    }
+
+    @GetMapping
+    public List<Task> findAll(){
+        return this.taskService.findAll();
     }
 }
