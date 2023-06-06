@@ -1,0 +1,20 @@
+package com.sam.todoapp.persistence.entity;
+
+import jakarta.persistence.*;
+import lombok.Data;
+
+import java.time.LocalDateTime;
+@Data
+@Entity
+@Table(name = "task")
+public class Task {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+    private Strint title;
+    private String description;
+    private LocalDateTime createDate;
+    private LocalDateTime eta;
+    private boolean finished;
+    private TaskStatus taskStatus;
+}
