@@ -26,4 +26,4 @@ springdoc:
 # definir la ruta de swagger-ui
     path: /doc/swagger-ui.html
 # seleccionar paquetes, clases a escanear
-  pathsToMatch: /test/**, /support/**
+  pathsToMatch: /tasks/**, /support/**
