@@ -1,5 +1,13 @@
 # API TODO
 Creación de tareas - Spring 
+## Tecnologías Utilizadas:
+
+- [OpenJDK JDK 17](https://openjdk.org/projects/jdk/17/)
+- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/#section=linux)
+- [MySQL](https://dev.mysql.com/downloads/mysql/)
+- [Docker](https://hub.docker.com/)
+- [Swagger](https://www.baeldung.com/spring-rest-openapi-documentation)
+  
 ## &emsp; Implementación
 Creación de una API REST en Spring, métodos implementados CRUD.
 * Crear tarea
@@ -104,5 +112,10 @@ Request body
 [ GET ] http://localhost:8080/tasks/{id} 
 ```
 ![Screenshot from 2023-06-09 11-10-17](https://github.com/chriscarsam/api_toto/assets/28877424/88099fff-a875-447f-b058-0b719a053fe9)
+
+### 📝 Commits realizados:
+Link: https://github.com/chriscarsam/api_todo/commits/master
+
+---
 
 Basada en la implementacion de SACAViX Tech : https://www.youtube.com/watch?v=z_dLYcQqSHI
